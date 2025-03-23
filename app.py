@@ -101,7 +101,7 @@ def main():
 # Layout for the banner image
 a, b, c = st.columns([0.2, 0.6, 0.2])
 with b:
-    st.image("banner-picture.jpeg", use_column_width=True)
+    st.image("cover.jpeg", use_container_width=True)
 
 # Description about the project and code files            
 st.subheader("🧾 Description")
