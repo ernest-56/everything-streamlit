@@ -97,8 +97,6 @@ def main():
                
               st.write("Developed By: Ernest Kipsang")
               
-# Set page title
-st.set_page_config(page_title="Accident Severity Prediction App", layout="wide")
 
 # Layout for the banner image
 a, b, c = st.columns([0.2, 0.6, 0.2])
